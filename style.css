@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: #0b0b0b;
+    
+}
+header{
+    margin: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap:wrap;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display:flex;
+}
+h2 {
+    color:yellow;
+    text-align: center;
+    padding:5%;
+}
+hr {
+    width: 30%;
+    height: 3%;
+    color:yellow;
+    align-items: center;
+}
+header div{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+    padding: 1%;
+}
+
+header div img {
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    border:5px solid yellow;
+}
+
+@media screen and (max-width:400px){
+    header div {
+        margin: 0;
+    }
+    header {
+        padding: 0;
+    }
+    
+}
